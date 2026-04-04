@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+@mixin btn-base {
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: opacity 0.15s, transform 0.1s;
+
+  &:active { transform: scale(0.96); }
+}
+
+@mixin btn-ghost {
+  @include btn-base;
+  background: rgba(255, 255, 255, 0.12);
+  color: $text-primary;
+  border: 1px solid $border-white !important;
+  border-radius: 4px;
+}
+
+@mixin panel-box {
+  background: $bg-overlay;
+  border: 1px solid $border-faint;
+  border-radius: 8px;
+  padding: 12px 20px;
+}
