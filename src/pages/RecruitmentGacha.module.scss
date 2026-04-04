@@ -1,0 +1,141 @@
+// RecruitmentGacha shares the same visual layout as StandardGacha.
+@use '../styles/variables' as *;
+@use '../styles/mixins' as *;
+
+// ── Page shell ───────────────────────────────────────────────────────────────
+.drawCard {
+  min-height: 100vh;
+  background: linear-gradient(160deg, $bg-page 0%, $bg-card 60%, darken(#16213e, 4%) 100%);
+  color: $text-primary;
+  text-align: center;
+  padding: 0 20px 60px;
+}
+
+// ── Back button ──────────────────────────────────────────────────────────────
+.btnBack {
+  @include btn-ghost;
+  display: inline-block;
+  margin: 18px auto 0;
+  height: 36px;
+  padding: 0 18px;
+  font-size: 0.9rem;
+
+  &:hover { background: rgba(255, 255, 255, 0.18); }
+}
+
+// ── Page heading ─────────────────────────────────────────────────────────────
+.pageTitle {
+  margin: 16px 0 4px;
+  font-size: 1.8rem;
+  color: $text-gold;
+  text-shadow: 0 0 18px rgba(240, 208, 128, 0.35);
+}
+
+.poolNote {
+  margin: 0 0 24px;
+  color: $text-muted;
+  font-size: 0.9rem;
+}
+
+// ── Draw actions ─────────────────────────────────────────────────────────────
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 28px 0 8px;
+}
+
+@mixin action-btn($color) {
+  @include btn-base;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: $text-white;
+  background: linear-gradient(135deg, $color 0%, darken($color, 12%) 100%);
+  border: 1px solid lighten($color, 10%);
+  box-shadow: 0 2px 10px rgba($color, 0.3);
+
+  &:hover {
+    opacity: 0.88;
+    box-shadow: 0 4px 18px rgba($color, 0.45);
+    transform: translateY(-1px);
+  }
+}
+
+.btnDraw    { @include action-btn($accent-green); }
+.btnDrawten { @include action-btn($accent-blue); }
+.btnReset   { @include action-btn(#555); box-shadow: none; }
+
+// ── Card result list ─────────────────────────────────────────────────────────
+.resultsSection {
+  margin: 16px auto 0;
+  max-width: 900px;
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  color: $text-gold-soft;
+  margin: 0 0 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardImg {
+  width: 70px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: $bg-card;
+
+  &.rarity6 { border-color: $rarity-6; box-shadow: 0 0 10px rgba($rarity-6, 0.5); }
+  &.rarity5 { border-color: $rarity-5; box-shadow: 0 0 10px rgba($rarity-5, 0.4); }
+  &.rarity4 { border-color: $rarity-4; box-shadow: 0 0 8px  rgba($rarity-4, 0.3); }
+}
+
+.cardName {
+  font-size: 0.72rem;
+  color: $text-muted;
+  max-width: 72px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// ── Stats panel ───────────────────────────────────────────────────────────────
+.statsPanel {
+  @include panel-box;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 28px;
+  margin-top: 24px;
+  max-width: 640px;
+}
+
+.statItem {
+  font-size: 0.95rem;
+  color: $text-primary;
+
+  &.highlight { color: $accent-green; font-weight: bold; }
+}

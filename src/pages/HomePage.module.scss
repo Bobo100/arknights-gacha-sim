@@ -1,0 +1,70 @@
+@use '../styles/variables' as *;
+
+.homePage {
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-page;
+  color: $text-white;
+}
+
+.homeTitle {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.homeSubtitle {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 48px;
+}
+
+.poolGrid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.poolCard {
+  width: 220px;
+  padding: 28px 20px;
+  background: $bg-card;
+  border: 2px solid var(--pool-color, #fff);
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.15s, box-shadow 0.15s;
+  color: $text-white;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  }
+}
+
+// Per-pool color tokens
+.poolStandard { --pool-color: #4a90d9; }
+.poolLimited  { --pool-color: #e8a020; }
+.poolRecruit  { --pool-color: #4caf88; }
+
+.poolLabel {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--pool-color, #fff);
+}
+
+.poolDesc {
+  font-size: 0.85rem;
+  color: #ccc;
+  line-height: 1.5;
+}

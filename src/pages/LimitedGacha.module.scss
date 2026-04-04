@@ -1,0 +1,557 @@
+@use '../styles/variables' as *;
+@use '../styles/mixins' as *;
+
+.limitedPage {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(160deg, $bg-page 0%, $bg-card 60%, $bg-dark 100%);
+  color: $text-primary;
+  padding: 0 0 40px;
+}
+
+// ── Banner selection ──────────────────────────────────
+.bannerSelectHeader {
+  padding: 28px 20px 12px;
+
+  h1 {
+    margin: 0 0 6px;
+    font-size: 1.8rem;
+    color: $text-gold;
+    text-shadow: 0 0 20px rgba(240, 208, 128, 0.4);
+  }
+
+  p {
+    margin: 0;
+    color: rgba(240, 232, 208, 0.6);
+    font-size: 0.9rem;
+  }
+}
+
+.bannerSelectTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.bannerCount {
+  font-size: 0.75rem;
+  color: $text-faint;
+}
+
+.bannerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 20px;
+}
+
+.bannerCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(240, 208, 128, 0.06);
+  border: 1px solid rgba(240, 208, 128, 0.2);
+  border-radius: 10px;
+  padding: 10px 14px 10px 10px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+  text-align: left;
+  width: 100%;
+  color: inherit;
+
+  &:hover {
+    border-color: $accent-gold;
+    background: rgba(232, 160, 32, 0.14);
+    transform: translateY(-2px);
+
+    .bannerCardName { color: $text-gold; }
+  }
+}
+
+.bannerThumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid $border-soft;
+  flex-shrink: 0;
+  background: $bg-page;
+}
+
+.bannerCardInfo {
+  margin-left: 12px;
+  min-width: 0;
+}
+
+.bannerCardTitle {
+  font-size: 0.7rem;
+  color: rgba(240, 232, 208, 0.5);
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bannerCardName {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $text-gold-soft;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.2s;
+}
+
+.bannerCardSub {
+  font-size: 0.75rem;
+  color: rgba(240, 232, 208, 0.5);
+  margin-top: 3px;
+}
+
+.bannerCardCompanion {
+  font-size: 0.72rem;
+  color: #a8d8a0;
+  margin-top: 2px;
+}
+
+// ── Gacha view ────────────────────────────────────────
+.gachaHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid $border-faint;
+
+  h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: $text-gold;
+  }
+}
+
+.btnBackLim,
+.btnBannerSelect {
+  @include btn-ghost;
+  padding: 6px 14px;
+  height: auto;
+  width: auto;
+  font-size: 0.85rem;
+
+  &:hover { background: rgba(255, 255, 255, 0.2); }
+}
+
+// ── Featured character ────────────────────────────────
+.featuredSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 28px;
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.featuredImgWrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.featuredImg {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid $accent-gold;
+  box-shadow: 0 0 20px rgba(232, 160, 32, 0.35);
+}
+
+.featuredLabel {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $accent-gold;
+  color: $bg-page;
+  font-size: 0.65rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+}
+
+.featuredInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.featuredName {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $text-gold;
+  margin: 0 0 6px;
+  text-shadow: 0 0 12px rgba(240, 208, 128, 0.3);
+}
+
+.featuredDesc {
+  font-size: 0.8rem;
+  color: $text-muted;
+  margin-bottom: 8px;
+}
+
+.companionRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 0;
+  flex-wrap: wrap;
+}
+
+.companionLabel {
+  font-size: 0.75rem;
+  color: rgba(240, 232, 208, 0.5);
+}
+
+.companionTag {
+  background: rgba(168, 216, 160, 0.15);
+  border: 1px solid rgba(168, 216, 160, 0.4);
+  color: #a8d8a0;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+.companionThumb {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.companionRate {
+  font-size: 0.72rem;
+  color: $text-faint;
+}
+
+// ── Rate table ────────────────────────────────────────
+.ratePanel {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  flex-shrink: 0;
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: 0.85rem;
+    color: rgba(240, 232, 208, 0.6);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
+
+.rateTable {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.82rem;
+
+  td {
+    padding: 5px 8px;
+    border: 1px solid $border-faint;
+    text-align: left;
+  }
+
+  tr:first-child td { border-top: 1px solid $border-soft; }
+}
+
+.rateStarCell {
+  font-weight: bold;
+  white-space: nowrap;
+
+  &.star6 { color: #ff9408; }
+  &.star5 { color: #ffd208; }
+  &.star4 { color: #8090ff; }
+  &.star3 { color: #a0a0a0; }
+}
+
+.ratePct  { color: rgba(240, 232, 208, 0.85); }
+.rateHint { font-size: 0.72rem; color: rgba(240, 232, 208, 0.45); }
+
+.rateNote {
+  font-size: 0.72rem;
+  color: rgba(240, 232, 208, 0.5);
+  margin-top: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.pityCurrent {
+  font-size: 0.8rem;
+  color: $text-gold-soft;
+  margin-top: 6px;
+  text-align: left;
+}
+
+// ── Draw area ─────────────────────────────────────────
+.drawSection {
+  max-width: 900px;
+  margin: 24px auto 0;
+  padding: 0 20px;
+
+  h2 {
+    font-size: 1rem;
+    margin: 0 0 12px;
+    color: rgba(240, 232, 208, 0.7);
+  }
+}
+
+.cardListLim {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  min-height: 90px;
+  padding: 10px;
+  background: $bg-overlay;
+  border-radius: 8px;
+  border: 1px solid rgba(240, 208, 128, 0.1);
+}
+
+.noDrawsPlaceholder {
+  color: rgba(240, 232, 208, 0.3);
+  align-self: center;
+  font-size: 0.85rem;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardImgLim {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid transparent;
+
+  &.star6    { border-color: #ff9408; box-shadow: 0 0 8px rgba(255, 148, 8, 0.5); }
+  &.star5    { border-color: #ffd208; box-shadow: 0 0 8px rgba(255, 210, 8, 0.4); }
+  &.star4    { border-color: #8090ff; }
+  &.isLimited { outline: 2px solid $accent-limited; outline-offset: 1px; }
+}
+
+.cardNameLim {
+  font-size: 0.65rem;
+  color: rgba(240, 232, 208, 0.8);
+  max-width: 64px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.limitedBadge {
+  font-size: 0.6rem;
+  color: $accent-limited;
+  line-height: 1;
+}
+
+// ── Stats ─────────────────────────────────────────────
+.statsSection {
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.statsBlock {
+  @include panel-box;
+
+  h3 {
+    font-size: 0.8rem;
+    color: rgba(240, 232, 208, 0.5);
+    margin: 0 0 8px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+  }
+
+  li {
+    font-size: 0.85rem;
+    color: rgba(240, 232, 208, 0.85);
+  }
+}
+
+.warningText { color: #ff9408; }
+
+// ── Buttons ───────────────────────────────────────────
+.btnContainerLim {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+
+  button {
+    width: 120px;
+    height: 44px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: bold;
+    transition: opacity 0.15s, transform 0.1s;
+
+    &:active { transform: scale(0.96); }
+  }
+}
+
+.btnDrawLim    { background: linear-gradient(135deg, $accent-blue, #2a60a0); color: #fff; }
+.btnDrawtenLim { background: linear-gradient(135deg, $accent-gold, #b07810); color: #fff; }
+.btnResetLim   {
+  background: rgba(255, 255, 255, 0.12);
+  color: $text-primary;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  width: 80px !important;
+}
+
+// ── Responsive ────────────────────────────────────────
+@media (max-width: 600px) {
+  .bannerGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 12px;
+  }
+
+  .bannerCard {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 8px;
+    gap: 6px;
+  }
+
+  .bannerCardInfo { margin-left: 0; }
+  .bannerCardName { font-size: 0.85rem; }
+
+  .featuredSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ratePanel {
+    min-width: unset;
+    width: 100%;
+  }
+}
+
+// ── History log ───────────────────────────────────────
+.historySection {
+  max-width: 900px;
+  margin: 28px auto 0;
+  text-align: left;
+}
+
+.historyToggle {
+  @include btn-ghost;
+  width: 100%;
+  text-align: left;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.historyRow {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.historyRowHeader {
+  @include btn-ghost;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-radius: 0;
+}
+
+.historyBatchNo {
+  font-weight: 600;
+  color: $text-gold;
+  min-width: 60px;
+}
+
+.historyBatchLabel {
+  font-size: 0.88rem;
+  color: $text-muted;
+  min-width: 70px;
+}
+
+.historyBatchStats {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+}
+
+.tag6 {
+  color: $rarity-6;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.tag5 {
+  color: $rarity-5;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.tagLimited {
+  color: $accent-gold;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border: 1px solid $accent-gold;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.historyArrow {
+  color: $text-muted;
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+
+.historyCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.15);
+  justify-content: center;
+}
