@@ -1,5 +1,992 @@
 [
     {
+        "cn": "Miss.Christine",
+        "en": "Miss.Christine",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "424"
+    },
+    {
+        "cn": "Mon3tr",
+        "en": "Mon3tr",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "423"
+    },
+    {
+        "cn": "Pith",
+        "en": "Pith",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "422"
+    },
+    {
+        "cn": "仇白",
+        "en": "Qiubai",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "420"
+    },
+    {
+        "cn": "Sharp",
+        "en": "Sharp",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "418"
+    },
+    {
+        "cn": "Stormeye",
+        "en": "Stormeye",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "416"
+    },
+    {
+        "cn": "Touch",
+        "en": "Touch",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "413"
+    },
+    {
+        "cn": "萬頃",
+        "en": "Wanqing",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "410"
+    },
+    {
+        "cn": "三角初華",
+        "en": "Misumi Uika",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "409"
+    },
+    {
+        "cn": "豐川祥子",
+        "en": "Togawa Sakiko",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "408"
+    },
+    {
+        "cn": "烏爾比安",
+        "en": "Ulpianus",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "406"
+    },
+    {
+        "cn": "雲跡",
+        "en": "Contrail",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "403"
+    },
+    {
+        "cn": "伊內絲",
+        "en": "Ines",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "400"
+    },
+    {
+        "cn": "休謨斯",
+        "en": "Humus",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "397"
+    },
+    {
+        "cn": "餘",
+        "en": "Yu",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "394"
+    },
+    {
+        "cn": "佩佩",
+        "en": "Pepe",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "393"
+    },
+    {
+        "cn": "信仰攪拌機",
+        "en": "Sankta Miksaparato",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "392"
+    },
+    {
+        "cn": "八幡海鈴",
+        "en": "Yahata Umiri",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "389"
+    },
+    {
+        "cn": "冬時",
+        "en": "Снегyрочка",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "388"
+    },
+    {
+        "cn": "冰釀",
+        "en": "Coldshot",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "387"
+    },
+    {
+        "cn": "凜御銀灰",
+        "en": "SilverAsh the Reignfrost",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "385"
+    },
+    {
+        "cn": "凜視",
+        "en": "Valarqvin",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "384"
+    },
+    {
+        "cn": "凱瑟琳",
+        "en": "Catherine",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "382"
+    },
+    {
+        "cn": "刺玫",
+        "en": "Vendela",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "380"
+    },
+    {
+        "cn": "醫生",
+        "en": "Doc",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "377"
+    },
+    {
+        "cn": "協律",
+        "en": "Akkord",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "375"
+    },
+    {
+        "cn": "歷陣銳槍芬",
+        "en": "Fang the Fire-sharpened",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "370"
+    },
+    {
+        "cn": "雙月",
+        "en": "Iana",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "369"
+    },
+    {
+        "cn": "司霆驚蟄",
+        "en": "Leizi the Thunderbringer",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "363"
+    },
+    {
+        "cn": "吉星",
+        "en": "Kichisei",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "362"
+    },
+    {
+        "cn": "哈洛德",
+        "en": "Harold",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "359"
+    },
+    {
+        "cn": "哈蒂婭",
+        "en": "Hadiya",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "358"
+    },
+    {
+        "cn": "響石",
+        "en": "Cairn",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "357"
+    },
+    {
+        "cn": "聖約送葬人",
+        "en": "Executor the Ex Foedere",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "352"
+    },
+    {
+        "cn": "聖聆初雪",
+        "en": "Pramanix the Prerita",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "351"
+    },
+    {
+        "cn": "塑心",
+        "en": "Virtuosa",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "347"
+    },
+    {
+        "cn": "復奏",
+        "en": "Ripresa",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "345"
+    },
+    {
+        "cn": "天空盒",
+        "en": "Skybox",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "335"
+    },
+    {
+        "cn": "奧達",
+        "en": "Odda",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "333"
+    },
+    {
+        "cn": "妮芙",
+        "en": "Nymph",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "332"
+    },
+    {
+        "cn": "娜仁圖亞",
+        "en": "Narantuya",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "331"
+    },
+    {
+        "cn": "娜斯提",
+        "en": "Nasti",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "330"
+    },
+    {
+        "cn": "寒檀",
+        "en": "Santalla",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "320"
+    },
+    {
+        "cn": "尋瀾",
+        "en": "Surfer",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "318"
+    },
+    {
+        "cn": "導火索",
+        "en": "Fuze",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "317"
+    },
+    {
+        "cn": "小滿",
+        "en": "Grain Buds",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "316"
+    },
+    {
+        "cn": "左樂",
+        "en": "Zuo Le",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "311"
+    },
+    {
+        "cn": "弒君者",
+        "en": "Crownslayer",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "303"
+    },
+    {
+        "cn": "引星棘刺",
+        "en": "Thorns the Lodestar",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "302"
+    },
+    {
+        "cn": "錄武官",
+        "en": "Record Keeper",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "300"
+    },
+    {
+        "cn": "忍冬",
+        "en": "Vulpisfoglia",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "297"
+    },
+    {
+        "cn": "戴菲恩",
+        "en": "Delphine",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "291"
+    },
+    {
+        "cn": "折光",
+        "en": "Diamante",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "289"
+    },
+    {
+        "cn": "折椏",
+        "en": "Веточки",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "288"
+    },
+    {
+        "cn": "提豐",
+        "en": "Typhon",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "283"
+    },
+    {
+        "cn": "擺渡人",
+        "en": "Varkáris",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "282"
+    },
+    {
+        "cn": "摩根",
+        "en": "Morgan",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "281"
+    },
+    {
+        "cn": "擷英調香師",
+        "en": "Perfumer the Distilled",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "280"
+    },
+    {
+        "cn": "斬業星熊",
+        "en": "Hoshiguma the Breacher",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "277"
+    },
+    {
+        "cn": "新約能天使",
+        "en": "Exusiai the New Covenant",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "273"
+    },
+    {
+        "cn": "望",
+        "en": "Wang",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "258"
+    },
+    {
+        "cn": "杏仁",
+        "en": "Almond",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "256"
+    },
+    {
+        "cn": "松桐",
+        "en": "Matsukiri",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "250"
+    },
+    {
+        "cn": "森西",
+        "en": "Senshi",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "235"
+    },
+    {
+        "cn": "止頌",
+        "en": "Lessing",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "232"
+    },
+    {
+        "cn": "死芒",
+        "en": "Necrass",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "231"
+    },
+    {
+        "cn": "水燈心",
+        "en": "Brigid",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "229"
+    },
+    {
+        "cn": "波卜",
+        "en": "Bobbing",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "226"
+    },
+    {
+        "cn": "洋灰",
+        "en": "Cement",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "223"
+    },
+    {
+        "cn": "海霓",
+        "en": "Lucilla",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "216"
+    },
+    {
+        "cn": "滌火傑西卡",
+        "en": "Jessica the Liberated",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "215"
+    },
+    {
+        "cn": "淬羽赫默",
+        "en": "Silence the Paradigmatic",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "214"
+    },
+    {
+        "cn": "深巡",
+        "en": "Underflow",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "213"
+    },
+    {
+        "cn": "深律",
+        "en": "Bassline",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "212"
+    },
+    {
+        "cn": "渡橋",
+        "en": "Mitm",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "207"
+    },
+    {
+        "cn": "溫米",
+        "en": "Warmy",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "206"
+    },
+    {
+        "cn": "溯光星源",
+        "en": "Astgenne the Lightchaser",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "204"
+    },
+    {
+        "cn": "火龍S黑角",
+        "en": "Rathalos S Noir Corne",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "199"
+    },
+    {
+        "cn": "烈夏",
+        "en": "Лето",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "191"
+    },
+    {
+        "cn": "燭煌",
+        "en": "Blaze the Igniting Spark",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "190"
+    },
+    {
+        "cn": "特克諾",
+        "en": "Tecno",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "183"
+    },
+    {
+        "cn": "瑪露西爾",
+        "en": "Marcille",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "178"
+    },
+    {
+        "cn": "玫拉",
+        "en": "Melanite",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "176"
+    },
+    {
+        "cn": "琳琅詩懷雅",
+        "en": "Swire the Elegant Wit",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "175"
+    },
+    {
+        "cn": "瑰鹽",
+        "en": "Rose Salt",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "172"
+    },
+    {
+        "cn": "電弧",
+        "en": "Raidian",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "171"
+    },
+    {
+        "cn": "真言",
+        "en": "Mantra",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "163"
+    },
+    {
+        "cn": "矩",
+        "en": "Ju",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "162"
+    },
+    {
+        "cn": "祐天寺若麥",
+        "en": "Yūtenji Nyamu",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "158"
+    },
+    {
+        "cn": "空構",
+        "en": "Spuria",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "154"
+    },
+    {
+        "cn": "紅隼",
+        "en": "Kestrel",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "147"
+    },
+    {
+        "cn": "純燼艾雅法拉",
+        "en": "Eyjafjalla the Hvít Aska",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "146"
+    },
+    {
+        "cn": "維什戴爾",
+        "en": "Wiš'adel",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "144"
+    },
+    {
+        "cn": "維娜·維多利亞",
+        "en": "Vina Victoria",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "143"
+    },
+    {
+        "cn": "維荻",
+        "en": "Verdant",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "142"
+    },
+    {
+        "cn": "緹緹",
+        "en": "Titi",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "140"
+    },
+    {
+        "cn": "繆爾賽思",
+        "en": "Muelsyse",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "138"
+    },
+    {
+        "cn": "聆音",
+        "en": "Gracebearer",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "129"
+    },
+    {
+        "cn": "艾拉",
+        "en": "Ela",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "124"
+    },
+    {
+        "cn": "蒼苔",
+        "en": "Bryophyta",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "117"
+    },
+    {
+        "cn": "若葉睦",
+        "en": "Wakaba Mutsumi",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "115"
+    },
+    {
+        "cn": "荒蕪拉普蘭德",
+        "en": "Lappland the Decadenza",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "113"
+    },
+    {
+        "cn": "莎草",
+        "en": "Papyrus",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "112"
+    },
+    {
+        "cn": "萊伊",
+        "en": "Ray",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "110"
+    },
+    {
+        "cn": "萊歐斯",
+        "en": "Laios",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "108"
+    },
+    {
+        "cn": "菲萊",
+        "en": "Philae",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "106"
+    },
+    {
+        "cn": "蒂比",
+        "en": "Tippi",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "105"
+    },
+    {
+        "cn": "蕾繆安",
+        "en": "Lemuen",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "103"
+    },
+    {
+        "cn": "薇薇安娜",
+        "en": "Viviana",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "101"
+    },
+    {
+        "cn": "行箸",
+        "en": "Xingzhu",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "96"
+    },
+    {
+        "cn": "衡沙",
+        "en": "Sand Reckoner",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "95"
+    },
+    {
+        "cn": "裁度",
+        "en": "Figurino",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "94"
+    },
+    {
+        "cn": "諾威爾",
+        "en": "Nowell",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "88"
+    },
+    {
+        "cn": "貝洛內",
+        "en": "Bellone",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "84"
+    },
+    {
+        "cn": "赤刃明霄陳",
+        "en": "Ch'en the Dawnstreak",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "81"
+    },
+    {
+        "cn": "赫德雷",
+        "en": "Hoederer",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "80"
+    },
+    {
+        "cn": "躍躍",
+        "en": "Caper",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "77"
+    },
+    {
+        "cn": "邏各斯",
+        "en": "Logos",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "70"
+    },
+    {
+        "cn": "遙",
+        "en": "Haruka",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "69"
+    },
+    {
+        "cn": "鬱金香",
+        "en": "Tulip",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "68"
+    },
+    {
+        "cn": "酒神",
+        "en": "Tragodia",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "66"
+    },
+    {
+        "cn": "鉬鉛",
+        "en": "Wulfenite",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "63"
+    },
+    {
+        "cn": "鐸鈴",
+        "en": "Wind Chimes",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "60"
+    },
+    {
+        "cn": "鐧",
+        "en": "Degenbrecher",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "57"
+    },
+    {
+        "cn": "錫人",
+        "en": "Tin Man",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "56"
+    },
+    {
+        "cn": "阿蘭娜",
+        "en": "Alanna",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "51"
+    },
+    {
+        "cn": "阿斯卡綸",
+        "en": "Ascalon",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "50"
+    },
+    {
+        "cn": "阿羅瑪",
+        "en": "Aroma",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "45"
+    },
+    {
+        "cn": "隱德來希",
+        "en": "Entelechia",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "42"
+    },
+    {
+        "cn": "隱現",
+        "en": "Insider",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "41"
+    },
+    {
+        "cn": "雪獵",
+        "en": "Snow Hunter",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "40"
+    },
+    {
+        "cn": "霍爾海雅",
+        "en": "Ho'olheyak",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "36"
+    },
+    {
+        "cn": "露託",
+        "en": "Lutonada",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "33"
+    },
+    {
+        "cn": "青枳",
+        "en": "Poncirus",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "32"
+    },
+    {
+        "cn": "領主·Sharp",
+        "en": "Lord/Sharp",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "17"
+    },
+    {
+        "cn": "風絮",
+        "en": "Taraxacum",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "14"
+    },
+    {
+        "cn": "騁風",
+        "en": "Windscoot",
+        "rarity": "3",
+        "approach": [],
+        "sort_id": "11"
+    },
+    {
+        "cn": "魔王",
+        "en": "Civilight Eterna",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "10"
+    },
+    {
+        "cn": "麒麟R夜刀",
+        "en": "Kirin R Yato",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "8"
+    },
+    {
+        "cn": "黍",
+        "en": "Shu",
+        "rarity": "5",
+        "approach": [],
+        "sort_id": "6"
+    },
+    {
+        "cn": "齊爾查克",
+        "en": "Chilchuck",
+        "rarity": "4",
+        "approach": [],
+        "sort_id": "2"
+    },
+    {
         "cn": "重岳",
         "en": "Chongyue",
         "rarity": "5",

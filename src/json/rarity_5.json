@@ -1,5 +1,643 @@
 [
     {
+        "cn": "Mon3tr",
+        "en": "Mon3tr",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/Mon3tr/Mon3tr-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "仇白",
+        "en": "Qiubai",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/仇白/仇白-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "豐川祥子",
+        "en": "Togawa Sakiko",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/豐川祥子/豐川祥子-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "烏爾比安",
+        "en": "Ulpianus",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/烏爾比安/烏爾比安-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "伊內絲",
+        "en": "Ines",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/伊內絲/伊內絲-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "餘",
+        "en": "Yu",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/餘/餘-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "佩佩",
+        "en": "Pepe",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/佩佩/佩佩-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "信仰攪拌機",
+        "en": "Sankta Miksaparato",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/信仰攪拌機/信仰攪拌機-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "凜御銀灰",
+        "en": "SilverAsh the Reignfrost",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/凜御銀灰/凜御銀灰-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "司霆驚蟄",
+        "en": "Leizi the Thunderbringer",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/司霆驚蟄/司霆驚蟄-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "聖約送葬人",
+        "en": "Executor the Ex Foedere",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/聖約送葬人/聖約送葬人-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "聖聆初雪",
+        "en": "Pramanix the Prerita",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/聖聆初雪/聖聆初雪-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "塑心",
+        "en": "Virtuosa",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/塑心/塑心-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "妮芙",
+        "en": "Nymph",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/妮芙/妮芙-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "娜仁圖亞",
+        "en": "Narantuya",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/娜仁圖亞/娜仁圖亞-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "娜斯提",
+        "en": "Nasti",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/娜斯提/娜斯提-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "左樂",
+        "en": "Zuo Le",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/左樂/左樂-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "弒君者",
+        "en": "Crownslayer",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/弒君者/弒君者-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "引星棘刺",
+        "en": "Thorns the Lodestar",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/引星棘刺/引星棘刺-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "忍冬",
+        "en": "Vulpisfoglia",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/忍冬/忍冬-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "提豐",
+        "en": "Typhon",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/提豐/提豐-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "斬業星熊",
+        "en": "Hoshiguma the Breacher",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/斬業星熊/斬業星熊-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "新約能天使",
+        "en": "Exusiai the New Covenant",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/新約能天使/新約能天使-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "望",
+        "en": "Wang",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/望/望-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "止頌",
+        "en": "Lessing",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/止頌/止頌-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "死芒",
+        "en": "Necrass",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/死芒/死芒-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "滌火傑西卡",
+        "en": "Jessica the Liberated",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/滌火傑西卡/滌火傑西卡-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "淬羽赫默",
+        "en": "Silence the Paradigmatic",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/淬羽赫默/淬羽赫默-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "溯光星源",
+        "en": "Astgenne the Lightchaser",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/溯光星源/溯光星源-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "燭煌",
+        "en": "Blaze the Igniting Spark",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/燭煌/燭煌-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "瑪露西爾",
+        "en": "Marcille",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/瑪露西爾/瑪露西爾-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "琳琅詩懷雅",
+        "en": "Swire the Elegant Wit",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/琳琅詩懷雅/琳琅詩懷雅-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "電弧",
+        "en": "Raidian",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/電弧/電弧-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "真言",
+        "en": "Mantra",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/真言/真言-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "純燼艾雅法拉",
+        "en": "Eyjafjalla the Hvít Aska",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/純燼艾雅法拉/純燼艾雅法拉-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "維什戴爾",
+        "en": "Wiš'adel",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/維什戴爾/維什戴爾-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "維娜·維多利亞",
+        "en": "Vina Victoria",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/維娜·維多利亞/維娜·維多利亞-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "緹緹",
+        "en": "Titi",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/緹緹/緹緹-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "繆爾賽思",
+        "en": "Muelsyse",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/繆爾賽思/繆爾賽思-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "艾拉",
+        "en": "Ela",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/艾拉/艾拉-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "荒蕪拉普蘭德",
+        "en": "Lappland the Decadenza",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/荒蕪拉普蘭德/荒蕪拉普蘭德-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "萊伊",
+        "en": "Ray",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/萊伊/萊伊-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "蕾繆安",
+        "en": "Lemuen",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/蕾繆安/蕾繆安-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "薇薇安娜",
+        "en": "Viviana",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/薇薇安娜/薇薇安娜-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "貝洛內",
+        "en": "Bellone",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/貝洛內/貝洛內-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "赤刃明霄陳",
+        "en": "Ch'en the Dawnstreak",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/赤刃明霄陳/赤刃明霄陳-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "赫德雷",
+        "en": "Hoederer",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/赫德雷/赫德雷-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "邏各斯",
+        "en": "Logos",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/邏各斯/邏各斯-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "遙",
+        "en": "Haruka",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/遙/遙-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "酒神",
+        "en": "Tragodia",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/酒神/酒神-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "鐧",
+        "en": "Degenbrecher",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/鐧/鐧-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "阿斯卡綸",
+        "en": "Ascalon",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/阿斯卡綸/阿斯卡綸-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "隱德來希",
+        "en": "Entelechia",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/隱德來希/隱德來希-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "霍爾海雅",
+        "en": "Ho'olheyak",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/霍爾海雅/霍爾海雅-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "領主·Sharp",
+        "en": "Lord/Sharp",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/領主·Sharp/領主·Sharp-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "魔王",
+        "en": "Civilight Eterna",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/魔王/魔王-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "麒麟R夜刀",
+        "en": "Kirin R Yato",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/麒麟R夜刀/麒麟R夜刀-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "黍",
+        "en": "Shu",
+        "rarity": "5",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/黍/黍-half.png",
+        "weight": 1
+    },
+    {
         "cn": "火哨",
         "en": "Firewhistle",
         "rarity": "5",

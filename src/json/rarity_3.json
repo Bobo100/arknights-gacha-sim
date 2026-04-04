@@ -1,5 +1,93 @@
 [
     {
+        "cn": "雲跡",
+        "en": "Contrail",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/雲跡/雲跡-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "休謨斯",
+        "en": "Humus",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/休謨斯/休謨斯-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "冬時",
+        "en": "Снегyрочка",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/冬時/冬時-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "協律",
+        "en": "Akkord",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/協律/協律-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "維荻",
+        "en": "Verdant",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/維荻/維荻-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "躍躍",
+        "en": "Caper",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/躍躍/躍躍-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "露託",
+        "en": "Lutonada",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/露託/露託-half.png",
+        "weight": 1
+    },
+    {
+        "cn": "騁風",
+        "en": "Windscoot",
+        "rarity": "3",
+        "approach": [
+            "其他"
+        ],
+        "sort_id": "",
+        "image_path": "./../image/騁風/騁風-half.png",
+        "weight": 1
+    },
+    {
         "cn": "斑點",
         "en": "Spot",
         "rarity": "3",
