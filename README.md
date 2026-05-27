@@ -2,7 +2,7 @@
 
 模擬明日方舟抽卡機制的網頁應用。
 
-**線上版本：** https://bobo100.github.io/Arknights-Simulation-Card-Draw/
+**線上版本：** https://bobo100.github.io/arknights-gacha-sim/
 
 ---
 

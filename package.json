@@ -1,6 +1,6 @@
 {
   "name": "arknights-simulation-card-draw",
-  "homepage": "https://bobo100.github.io/Arknights-Simulation-Card-Draw/",
+  "homepage": "https://bobo100.github.io/arknights-gacha-sim/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
