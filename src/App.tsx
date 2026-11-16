@@ -13,7 +13,7 @@ import { NotFoundPage } from './pages/Error';
 function App() {
   return (
     <div className="App">
-      <Router basename="/Arknights-Simulation-Card-Draw">
+      <Router basename="/arknights-gacha-sim">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/standard" element={<StandardGacha />} />

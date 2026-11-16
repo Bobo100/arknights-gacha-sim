@@ -18,7 +18,7 @@
 
 - React 18 + TypeScript + Vite
 - SCSS Modules（`*.module.scss`）
-- react-router-dom v6
+- react-router-dom v7
 
 ---
 
@@ -28,7 +28,6 @@
 npm install       # 安裝依賴
 npm run start     # 啟動開發伺服器
 npm run build     # 打包生產版本
-npm run deploy    # 部署到 GitHub Pages
 ```
 
 ---
